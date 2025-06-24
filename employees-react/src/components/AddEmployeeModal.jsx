@@ -101,7 +101,7 @@ function AddEmployeeModal({ isOpen, onCloseAddModal, onAddEmployee }) {
               </div>
               <div className="modal-footer">
                 <button onClick={handleCancel} type="button" className="btn btn-default">Cancel</button>
-                <button type="submit" class="btn btn-success">Add</button>
+                <button type="submit" className="btn btn-success">Add</button>
               </div>
             </form>
           </div>
